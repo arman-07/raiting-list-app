@@ -10,6 +10,7 @@ const RatingUserList: React.FC<RatingUserListProps> = ({
 }) => {
   return (
     <Box p={5}>
+      <Typography variant="h6">Пользователи с рейтингом</Typography>
       {ratingUsers.map((user) => (
         <Box key={user.id} my={2}>
           <Typography>{user.name}</Typography>
